@@ -1,21 +1,15 @@
-import { Fullscreen } from "@material-ui/icons";
-import { Route, Switch } from "react-router-dom";
+import React from "react";
 import Blank from "./components/layout/blank/Blank";
-import Full from "./components/layout/full/Full";
 
-function App() {
+const App = () => {
+  const theme = {
+    backgroundColor: "#000",
+  };
   return (
-    <>
-      <Switch>
-        <Route path="/">
-          <Blank />
-        </Route>
-        <Route path="/full">
-          <Full />
-        </Route>
-      </Switch>
-    </>
+    <div style={theme}>
+      <Blank />
+    </div>
   );
-}
+};
 
 export default App;
