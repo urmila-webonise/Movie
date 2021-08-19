@@ -3,8 +3,8 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import { Route, Switch } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
-import DreamworkProd from "../Dreamwork/DreamworkProd";
-import DreamworkProdDetails from "../Dreamwork/DreamworkProdDetails";
+import DreamworkProd from "./DreamworkProd";
+import DreamworkProdDetails from "./DreamworkProdDetails";
 
 const DreamworkworkProdList = () => {
   const box = {

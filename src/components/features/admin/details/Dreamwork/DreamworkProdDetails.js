@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AddReview from "../review/AddReviews";
+import AddReview from "../../../../layout/review/AddReviews";
 
 const DreamworkProdDetails = ({ bmovie }) => {
   const { id } = useParams();

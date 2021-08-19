@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AddReview from "../review/AddReviews";
+import AddReview from "../../../../layout/review/AddReviews";
 
-const ColumbiaProdDetails = ({ bmovie }) => {
+const BhansaliProdDetails = ({ bmovie }) => {
   const { id } = useParams();
   const [details, setDetails] = useState({});
 
@@ -37,4 +37,4 @@ const ColumbiaProdDetails = ({ bmovie }) => {
   );
 };
 
-export default ColumbiaProdDetails;
+export default BhansaliProdDetails;

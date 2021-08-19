@@ -120,7 +120,7 @@ const ColumbiaProdList = () => {
           <Grid item xs={7}>
             <Box style={box}>
               <Switch>
-                <Route path="/full/:id">
+                <Route path="/:id">
                   <ColumbiaProdDetails bmovie={bmovie} />
                 </Route>
               </Switch>

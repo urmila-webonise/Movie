@@ -3,8 +3,8 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import { Route, Switch } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
-import ErosInternational from "../ErosInternational/ErosInternational";
-import ErosInternationalDetails from "../ErosInternational/ErosInternationalDetails";
+import ErosInternational from "./ErosInternational";
+import ErosInternationalDetails from "./ErosInternationalDetails";
 
 const ErosInternationalList = () => {
   const box = {

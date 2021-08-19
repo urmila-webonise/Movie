@@ -17,6 +17,7 @@ const Movies = (props) => {
           </div>
         ))}
       </div>
+
       <div>
         <MovieForm />
       </div>

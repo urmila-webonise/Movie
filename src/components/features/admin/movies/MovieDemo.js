@@ -1,3 +1,4 @@
+import { Button } from "@material-ui/core";
 import React, { useState } from "react";
 import Movies from "./Movies";
 
@@ -148,10 +149,54 @@ const MovieDemo = () => {
       genre: "Drama",
     },
   ]);
+  const [ratings, setRatings] = useState(true);
+
+  const handleRating = () => {
+    if (ratings) {
+      let high = movies.sort((a, b) => a.ratings - b.ratings);
+      setGenre(high);
+    } else {
+      let low = movies.sort((a, b) => b.ratings - a.ratings);
+      setGenre(low);
+    }
+    setRatings(!ratings);
+  };
+  const [genre, setGenre] = useState(movies);
+  const filterMoviesByGenre = (gen) => {
+    const filteredMovies = movies.filter((movie) => movie.genre === gen);
+    setGenre(filteredMovies);
+  };
 
   return (
     <div>
-      <Movies movies={movies} />
+      <div style={{ marginLeft: "600px" }}>
+        <Button variant="outlined" color="primary" onClick={handleRating}>
+          {ratings ? "Low " : "High "}ratings
+        </Button>
+        <Button
+          variant="outlined"
+          color="primary"
+          onClick={() => filterMoviesByGenre("Comedy")}
+        >
+          Comedy
+        </Button>
+        <Button
+          variant="outlined"
+          color="primary"
+          onClick={() => filterMoviesByGenre("Action")}
+        >
+          Action
+        </Button>
+        <Button
+          variant="outlined"
+          color="primary"
+          onClick={() => filterMoviesByGenre("Drama")}
+        >
+          Drama
+        </Button>
+      </div>
+
+      <Movies movies={genre} />
     </div>
   );
 };

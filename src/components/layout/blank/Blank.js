@@ -4,12 +4,8 @@ import Header from "../../ui/header/Header";
 import PageNotFound from "../../ui/page-not-found/PageNotFound";
 import MovieDemo from "../../features/admin/movies/MovieDemo";
 import BrandDemo from "../../features/admin/brands/BrandDemo";
-import BhansaliProdList from "../../layout/Bhansali/BhansaliProdList";
-import ColumbiaProdList from "../Columbia/ColumbiaProdList";
-import DreamworkworkProdList from "../Dreamwork/DreamworkProdList";
-import ErosInternationalList from "../ErosInternational/ErosInternationalList";
-import MovieForm from "../addmovie/MovieForm";
-import Full from "../../features/admin/full/Full";
+import Details from "../../features/admin/details/Details";
+
 const Blank = () => {
   return (
     <>
@@ -21,16 +17,14 @@ const Blank = () => {
         <Route path="/brands">
           <BrandDemo />
         </Route>
+        <Route path="/details">
+          <Details />
+        </Route>
 
         <Route path="*">
           <PageNotFound />
         </Route>
       </Switch>
-
-      {/* <BhansaliProdList /> */}
-      {/* <ColumbiaProdList /> */}
-      {/* <DreamworkworkProdList /> */}
-      {/* <ErosInternationalList/> */}
     </>
   );
 };

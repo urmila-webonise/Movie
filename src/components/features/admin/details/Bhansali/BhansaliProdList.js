@@ -3,8 +3,8 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import { Route, Switch } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
-import BhansaliProd from "../Bhansali/BhansaliProd";
-import BhansaliProdDetails from "../Bhansali/BhansaliProdDetails.js";
+import BhansaliProd from "./BhansaliProd";
+import BhansaliProdDetails from "./BhansaliProdDetails";
 
 const BhansaliProdList = () => {
   const box = {
