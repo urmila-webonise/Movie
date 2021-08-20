@@ -20,7 +20,6 @@ const Blank = () => {
         <Route path="/details">
           <Details />
         </Route>
-
         <Route path="*">
           <PageNotFound />
         </Route>

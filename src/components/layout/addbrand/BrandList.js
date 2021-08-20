@@ -16,7 +16,7 @@ const BrandList = ({ items, handleRemove }) => {
             <div key={i} className="container">
               <h4>Brand Name:{item.name}</h4>
               <h4>Founder:{item.sname}</h4>
-              <h4>Ratings:{item.rname}</h4>
+              <h4>Year:{item.rname}</h4>
               <h4>
                 <button onClick={() => handleRemove(item)} style={button}>
                   Remove

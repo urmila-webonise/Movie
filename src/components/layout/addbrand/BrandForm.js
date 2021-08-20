@@ -41,7 +41,7 @@ const BrandForm = () => {
   };
   return (
     <form onSubmit={handleSubmit} style={{ margin: "auto", width: "900px" }}>
-      <h1 style={font}>Brand</h1>
+      <h1 style={font}>Brands</h1>
 
       <label htmlFor="name" style={font}>
         Brand Name:
@@ -56,7 +56,7 @@ const BrandForm = () => {
       <br />
 
       <label htmlFor="rname" style={font}>
-        Ratings:
+        Year:
       </label>
       <input type="number" id="rname" name="rname" onChange={handleChange} />
       <br />

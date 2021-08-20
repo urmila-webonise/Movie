@@ -169,7 +169,7 @@ const MovieDemo = () => {
 
   return (
     <div>
-      <div style={{ marginLeft: "600px" }}>
+      <div style={{ marginLeft: "500px" }}>
         <Button variant="outlined" color="primary" onClick={handleRating}>
           {ratings ? "Low " : "High "}ratings
         </Button>
