@@ -27,7 +27,8 @@ const ColumbiaProdList = () => {
       year: "2017",
       ratings: "7.4",
       genre: "comedy, adventure, action ",
-      picture: "./columbia/spiderman.jpeg",
+      picture:
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkBgGCS74dHRSe3i0fkEsdaC1jJPU4px6Pyv9-TOipm13gOprI",
     },
     {
       id: 2,
@@ -38,7 +39,8 @@ const ColumbiaProdList = () => {
       year: "2021",
       ratings: "7.7",
       genre: "adventure, kids & family, comedy",
-      picture: "./columbia/mm.jpeg",
+      picture:
+        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRIbZJvaXTGYD3iJUbv1u2Al13c1bJGv3wo-otVfHHdDfjC4f1U",
     },
     {
       id: 3,
@@ -49,7 +51,8 @@ const ColumbiaProdList = () => {
       year: "2018",
       ratings: "6.7",
       genre: "Action",
-      picture: "./columbia/Venom.png",
+      picture:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvGNXRmC76GfZrgM7P_oY0nZqg00bsjC7E5zu4dZBReXiHD_kt",
     },
     {
       id: 4,
@@ -60,7 +63,8 @@ const ColumbiaProdList = () => {
       year: "2019",
       ratings: "7.5",
       genre: "comedy, adventure, action",
-      picture: "./columbia/spiderman1.jpeg",
+      picture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTStY893W6Ihm3px1v-iJu3s0qVaAcyXdiE2ICo9bShiQgpCSbx",
     },
     {
       id: 5,
@@ -71,7 +75,8 @@ const ColumbiaProdList = () => {
       year: "1997",
       ratings: "7.3",
       genre: "comedy, sci-fi, adventure, action",
-      picture: "./columbia/meninblack.jpeg",
+      picture:
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-yrqG9KtBQFeQHujqJNGN6t3xckSdlXQC3WRvCb07fIeC5u__",
     },
     {
       id: 6,
@@ -82,7 +87,8 @@ const ColumbiaProdList = () => {
       year: "2019",
       ratings: "7.6",
       genre: "comedy, drama",
-      picture: "./columbia/OUTB.jpeg",
+      picture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToswZe6sYekUbOf0TpjhYo64Z8P7x2x3zjT9XO2R_-2oXeX06Y",
     },
     {
       id: 7,
@@ -93,7 +99,7 @@ const ColumbiaProdList = () => {
       year: "2017",
       ratings: "6.9",
       genre: "comedy, adventure, action",
-      picture: "./columbia/jumanji.jpg",
+      picture: "https://contentserver.com.au/assets/637737_jumanji_v8_aa.jpg",
     },
     {
       id: 8,
@@ -104,7 +110,8 @@ const ColumbiaProdList = () => {
       year: "2021",
       ratings: "6.7",
       genre: "rama",
-      picture: "./columbia/fatherhood1.jpeg",
+      picture:
+        "https://m.media-amazon.com/images/M/MV5BMzU5YWYzZGMtNTE2My00NDE0LTgxNWYtZDYzYjI2YzM3OWJlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
     },
   ]);
   return (
@@ -120,7 +127,7 @@ const ColumbiaProdList = () => {
           <Grid item xs={7}>
             <Box style={box}>
               <Switch>
-                <Route path="/:id">
+                <Route path="/details/Columbia/:id">
                   <ColumbiaProdDetails bmovie={bmovie} />
                 </Route>
               </Switch>

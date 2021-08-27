@@ -27,7 +27,7 @@ const BhansaliProdList = () => {
       year: " 2018",
       ratings: "7.0",
       genre: "Drama, History, Romance",
-      picture: "./images/Padmavat1.jpg",
+      picture: "https://contentserver.com.au/assets/603892_v7_padvaati.jpg",
     },
     {
       id: 2,
@@ -38,7 +38,8 @@ const BhansaliProdList = () => {
       year: "2015",
       ratings: "7.2",
       genre: "Drama, History, Romance",
-      picture: "./images/bajiraomastani.jpeg",
+      picture:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlrVbVegkEEzd-0TUa-6tUxLAu6SyJcd7CgG3Dqcdm3TC2J6N_",
     },
     {
       id: 3,
@@ -49,7 +50,8 @@ const BhansaliProdList = () => {
       year: "2013",
       ratings: "7.2",
       genre: " Romance, Drama, Musical, Bollywood",
-      picture: "./images/ramleela.jpeg",
+      picture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQ-gRDZRZQ1ItG0BJtRRu9ko0zr6j4itoAp8iHWQ8aJ3fNWh2",
     },
     {
       id: 4,
@@ -60,7 +62,8 @@ const BhansaliProdList = () => {
       year: "2021",
       ratings: "7.2",
       genre: "Drama, History",
-      picture: "./images/gangubai.jpeg",
+      picture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUcTu30gYBV3W-uileMjbAZoUTuiyEqbuD2n1cgLjwEisZT5S2",
     },
     {
       id: 5,
@@ -71,7 +74,7 @@ const BhansaliProdList = () => {
       year: "1999",
       ratings: "7.5",
       genre: "Drama,Romance",
-      picture: "./images/devdas.jpg",
+      picture: "http://www.gstatic.com/tv/thumb/movies/33367/33367_aa.jpg",
     },
     {
       id: 6,
@@ -82,7 +85,8 @@ const BhansaliProdList = () => {
       year: "2005",
       ratings: "8.2",
       genre: "Drama",
-      picture: "./images/black.jpeg",
+      picture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvxPP593hbbqvg3yov7CAm6ofnjFzGa3BxCFVa_3ob1nAptLgc",
     },
     {
       id: 7,
@@ -93,7 +97,8 @@ const BhansaliProdList = () => {
       year: "2019",
       ratings: "6.7",
       genre: "Drama,Romance",
-      picture: "./images/malaal.jpeg",
+      picture:
+        "https://3.bp.blogspot.com/-xOWAXdjacGY/XOPHgZ_lVKI/AAAAAAAAYy4/hKLXT6ye51oK7C-nwCoc2yLzeKeLsKfFgCLcBGAs/s1600/malaal-movie-poster-star-cast-release-date-mt-wiki.jpg",
     },
     {
       id: 8,
@@ -104,7 +109,8 @@ const BhansaliProdList = () => {
       year: "2012",
       ratings: "5.7",
       genre: "Drama,Romance",
-      picture: "./images/RR.jpeg",
+      picture:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5izUDsf_beJ1dGROOrtE4DgJjfEeo2VpfrZQ-Za2kvtr9qPVM",
     },
   ]);
   return (
@@ -120,7 +126,7 @@ const BhansaliProdList = () => {
           <Grid item xs={7}>
             <Box style={box}>
               <Switch>
-                <Route path="/:id">
+                <Route path="/details/Bhansali/:id">
                   <BhansaliProdDetails bmovie={bmovie} />
                 </Route>
               </Switch>

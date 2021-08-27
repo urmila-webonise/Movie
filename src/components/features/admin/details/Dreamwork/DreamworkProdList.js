@@ -27,7 +27,8 @@ const DreamworkworkProdList = () => {
       year: "2016",
       ratings: "6.4",
       genre: "kids & family, adventure",
-      picture: "./dreamwork/bfg.jpeg",
+      picture:
+        "https://www.whatutalkingboutwillis.com/wp-content/uploads/2016/01/the-bfg-poster.jpg",
     },
     {
       id: 2,
@@ -38,7 +39,8 @@ const DreamworkworkProdList = () => {
       year: "2011",
       ratings: "8.0",
       genre: "drama",
-      picture: "./dreamwork/help.jpeg",
+      picture:
+        "https://upload.wikimedia.org/wikipedia/en/d/d3/The_Help_%282011_film%29.jpg",
     },
     {
       id: 3,
@@ -49,7 +51,8 @@ const DreamworkworkProdList = () => {
       year: "2011",
       ratings: "7.0",
       genre: "sci-fi, action",
-      picture: "./dreamwork/realsteel.jpeg",
+      picture:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Real_Steel_Poster.jpg/220px-Real_Steel_Poster.jpg",
     },
     {
       id: 4,
@@ -60,7 +63,8 @@ const DreamworkworkProdList = () => {
       year: "2011",
       ratings: "7.2",
       genre: "Action,Adventure",
-      picture: "./dreamwork/warhorse.jpeg",
+      picture:
+        "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg",
     },
     {
       id: 5,
@@ -71,7 +75,8 @@ const DreamworkworkProdList = () => {
       year: "2010",
       ratings: "8.2",
       genre: "Gothic, Psychological Horror",
-      picture: "./dreamwork/shutter.jpeg",
+      picture:
+        "https://upload.wikimedia.org/wikipedia/en/7/76/Shutterislandposter.jpg",
     },
     {
       id: 6,
@@ -82,7 +87,8 @@ const DreamworkworkProdList = () => {
       year: "2001",
       ratings: "7.9",
       genre: " Adventure, Comedy ",
-      picture: "./dreamwork/shrek.jpeg",
+      picture:
+        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_OkJKQ6ZpDV_xhC0L9zyHEcKMlV9x3Q30LF6MOE0nV1U6r09p",
     },
     {
       id: 7,
@@ -93,7 +99,7 @@ const DreamworkworkProdList = () => {
       year: "2019",
       ratings: "8.3",
       genre: "drama, history",
-      picture: "./dreamwork/1917.jpeg",
+      picture: "https://i.ytimg.com/vi/VzvdoLeXClg/movieposter_en.jpg",
     },
     {
       id: 8,
@@ -104,7 +110,8 @@ const DreamworkworkProdList = () => {
       year: "2018",
       ratings: "8.2",
       genre: "comedy, drama",
-      picture: "./dreamwork/greenbook.jpeg",
+      picture:
+        "https://movies.universalpictures.com/media/gbk-tsr1sheet-rgb-3sm-5b7308033d1a5-1.jpg",
     },
   ]);
   return (
@@ -120,7 +127,7 @@ const DreamworkworkProdList = () => {
           <Grid item xs={7}>
             <Box style={box}>
               <Switch>
-                <Route path="/:id">
+                <Route path="/details/Dreamwork/:id">
                   <DreamworkProdDetails bmovie={bmovie} />
                 </Route>
               </Switch>

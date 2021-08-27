@@ -4,7 +4,7 @@ import Header from "../../ui/header/Header";
 import PageNotFound from "../../ui/page-not-found/PageNotFound";
 import MovieDemo from "../../features/admin/movies/MovieDemo";
 import BrandDemo from "../../features/admin/brands/BrandDemo";
-import Details from "../../features/admin/details/Details";
+import Details from "../detail/Details";
 
 const Blank = () => {
   return (
@@ -17,9 +17,11 @@ const Blank = () => {
         <Route path="/brands">
           <BrandDemo />
         </Route>
+
         <Route path="/details">
           <Details />
         </Route>
+
         <Route path="*">
           <PageNotFound />
         </Route>

@@ -27,7 +27,8 @@ const ErosInternationalList = () => {
       year: "2011",
       ratings: "7.7",
       genre: "romance, drama",
-      picture: "./eros/rockstar.jpeg",
+      picture:
+        "https://m.media-amazon.com/images/M/MV5BOTc3NzAxMjg4M15BMl5BanBnXkFtZTcwMDc2ODQwNw@@._V1_.jpg",
     },
     {
       id: 2,
@@ -38,7 +39,7 @@ const ErosInternationalList = () => {
       year: "2012",
       ratings: "7.8",
       genre: "Comedy",
-      picture: "./eros/englishv.jpg",
+      picture: "http://www.movienewsletters.net/photos/137735R1.jpg",
     },
     {
       id: 3,
@@ -49,7 +50,8 @@ const ErosInternationalList = () => {
       year: "2021",
       ratings: "9.0",
       genre: "Action",
-      picture: "./eros/kadaan.jpeg",
+      picture:
+        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTwEjcsZU7wSPGwOOS3IxeFPVa16K38IHDha_TIPNJFiddA_Hwt",
     },
     {
       id: 4,
@@ -60,7 +62,8 @@ const ErosInternationalList = () => {
       year: "2012",
       ratings: "6.3",
       genre: "Drama",
-      picture: "./eros/cocktail.jpeg",
+      picture:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWs652t_U303cXJnvVEag6QUtfXhzRr4DcJAGN5XaUuuml2v1R",
     },
     {
       id: 5,
@@ -71,7 +74,8 @@ const ErosInternationalList = () => {
       year: "2017",
       ratings: "3.3",
       genre: "Action",
-      picture: "./eros/munnami.jpeg",
+      picture:
+        "https://m.media-amazon.com/images/M/MV5BMTgyNDQ4NDM2Nl5BMl5BanBnXkFtZTgwODI4NDk0MjI@._V1_.jpg",
     },
     {
       id: 6,
@@ -82,7 +86,8 @@ const ErosInternationalList = () => {
       year: "2011",
       ratings: "4.7",
       genre: "Action",
-      picture: "./eros/raone.jpeg",
+      picture:
+        "https://upload.wikimedia.org/wikipedia/en/5/58/Ra.Oneposter.jpg",
     },
     {
       id: 7,
@@ -93,7 +98,8 @@ const ErosInternationalList = () => {
       year: "2014",
       ratings: "3.3",
       genre: "Action",
-      picture: "./eros/actionjaction.jpeg",
+      picture:
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT0QXr099x2m3unt1GFV-EKdYU7_tpkAvinDwZfz4GkYO2ljAK2",
     },
     {
       id: 8,
@@ -104,7 +110,8 @@ const ErosInternationalList = () => {
       year: "2010",
       ratings: "4.5",
       genre: "Drama",
-      picture: "./eros/veer.jpeg",
+      picture:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyXuW7tPw_AVztitG6-uaHiJ3D1qpF7xflNfMJAdwItjqA5RF3",
     },
   ]);
   return (
@@ -120,7 +127,7 @@ const ErosInternationalList = () => {
           <Grid item xs={7}>
             <Box style={box}>
               <Switch>
-                <Route path="/:id">
+                <Route path="/details/ErosInternational/:id">
                   <ErosInternationalDetails bmovie={bmovie} />
                 </Route>
               </Switch>

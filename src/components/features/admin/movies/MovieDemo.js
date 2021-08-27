@@ -7,7 +7,8 @@ const MovieDemo = () => {
     {
       id: 1,
       title: "Article 15",
-      avatar: "./images/Article15.jpg",
+      avatar:
+        "https://m.media-amazon.com/images/M/MV5BZTI2NTFiMDMtZjQxNS00YjBkLWFhNWMtOTIyMzE5Yjc0ZTZiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
       director: "Anubhav Sinha",
       stars: "Ayushmann Khurran, Nassara",
       ratings: 8.2,
@@ -16,7 +17,8 @@ const MovieDemo = () => {
     {
       id: 2,
       title: "3 Idiots",
-      avatar: "./images/3Idiots.jpg",
+      avatar:
+        "https://feeds.abplive.com/onecms/images/uploaded-images/2021/05/18/bf98799be8cdafe11bc649f3b6182fc3_original.jpg?impolicy=abp_cdn&imwidth=1200&imheight=628",
       director: "Rajkumar Hirani",
       stars: "Aamir Khan, Madhavan,Sharman",
       ratings: 8.4,
@@ -25,7 +27,8 @@ const MovieDemo = () => {
     {
       id: 3,
       title: "Bahubali 2",
-      avatar: "./images/Bahubali2.jpg",
+      avatar:
+        "https://rukminim1.flixcart.com/image/416/416/j95y4cw0/poster/r/s/h/large-movie-bahubali-2-posters-on-large-print-36x24-inches-original-imaew4jdf6rs9hdk.jpeg?q=70",
       director: "S.S. Rajamouli",
       stars: "Prabhas,Anushka Shetty",
       ratings: 8.2,
@@ -34,7 +37,8 @@ const MovieDemo = () => {
     {
       id: 4,
       title: "Dangal",
-      avatar: "./images/Dangal.jpg",
+      avatar:
+        "https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg",
       director: "Nitesh Tiwari",
       stars: "Aamir Khan,Fatima Shaikh",
       ratings: 8.4,
@@ -43,7 +47,7 @@ const MovieDemo = () => {
     {
       id: 5,
       title: "Dear Zindagi",
-      avatar: "./images/DearZindgi.jpg",
+      avatar: "https://im.rediff.com/movies/2016/oct/19dear-zindagi.jpg",
       director: "Gauri Shinde",
       stars: "Alia Bhatt,Shah Rukh Khan",
       ratings: 7.5,
@@ -52,7 +56,8 @@ const MovieDemo = () => {
     {
       id: 6,
       title: "Dil Dhadakne Do",
-      avatar: "./images/DilDhadakneDo.jpg",
+      avatar:
+        "https://www.koimoi.com/wp-content/new-galleries/2018/06/things-siblings-will-totally-relate-movie-dil-dhadakne-0001.jpg",
       director: "Zoya Akhtar",
       stars: "Anil Kapoor,Shefali Shah",
       ratings: 6.9,
@@ -61,7 +66,8 @@ const MovieDemo = () => {
     {
       id: 7,
       title: "Ginny Weds Sunny",
-      avatar: "./images/GinnyWedsSunny.jpg",
+      avatar:
+        "https://m.media-amazon.com/images/M/MV5BOTU2Mjc4YWUtMjkzNC00ZDQ5LTkzZmYtOTMyY2NkODU4ZmU2XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
       director: "Puneet Khanna",
       stars: "Yami Gautam,Vikrant Massey",
       ratings: 5.7,
@@ -70,7 +76,8 @@ const MovieDemo = () => {
     {
       id: 8,
       title: "Gunjan Saxena",
-      avatar: "./images/GunjanSaxena.jpg",
+      avatar:
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQz1QWpKg8AF9Kz4XyA3iBJr6eO6-H4w70HbsRwJKtBPxrO7eHP",
       director: "Sharan Sharma",
       stars: "Janhvi Kapoor,Pankaj Tripathi",
       ratings: 5.3,
@@ -79,7 +86,8 @@ const MovieDemo = () => {
     {
       id: 9,
       title: "Haseen Dilruba",
-      avatar: "./images/HaseenDilruba.jpg",
+      avatar:
+        "https://upload.wikimedia.org/wikipedia/en/3/30/Haseen_Dillruba_film_poster.jpg",
       director: "Vinil Mathew",
       stars: "Taapsee Pannu,Vikrant Massey",
       ratings: 6.9,
@@ -88,7 +96,8 @@ const MovieDemo = () => {
     {
       id: 10,
       title: "Jagame Thandhiram",
-      avatar: "./images/JagameThandhiram.jpg",
+      avatar:
+        "https://m.media-amazon.com/images/M/MV5BM2UwNGNjMWEtMGI2My00YzI3LTljMDEtYTFhYzM3YWMyMzNmXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg",
       director: "Karthik Subbaraj",
       stars: "Dhanush,Aishwarya ",
       ratings: 6,
@@ -97,7 +106,8 @@ const MovieDemo = () => {
     {
       id: 11,
       title: "Ludo",
-      avatar: "./images/Ludo.jpg",
+      avatar:
+        "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMVa41j75lbnd4VZcLLzl6L4eYKUBijJ8mQELU27AwJ4kLAND5",
       director: "Anurag Basu",
       stars: "Pankaj Tripathi,Abhishek B.",
       ratings: 7.6,
@@ -106,7 +116,8 @@ const MovieDemo = () => {
     {
       id: 12,
       title: "Mimi",
-      avatar: "./images/mimi.jpg",
+      avatar:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx39Bfk75GTlY4zQgIgt1eE66M3HvyzUUA_aVPahhpx9DSYL2g",
       director: "Laxman Utekar",
       stars: "Kriti Sanon,Pankaj Tripathi",
       ratings: 8.2,
@@ -115,7 +126,8 @@ const MovieDemo = () => {
     {
       id: 13,
       title: "Miss India",
-      avatar: "./images/MissIndia.jpg",
+      avatar:
+        "https://m.media-amazon.com/images/M/MV5BY2RlOWVmOTgtOGExMC00M2Y0LTgwNDUtOTYwZjg4N2UwZjNjXkEyXkFqcGdeQXVyNDc2NzU1MTA@._V1_.jpg",
       director: "Narendra Nath",
       stars: "Keerthy Suresh,Naveen Chandra ",
       ratings: 3.6,
@@ -124,7 +136,8 @@ const MovieDemo = () => {
     {
       id: 14,
       title: "Roohi",
-      avatar: "./images/Roohi.jpg",
+      avatar:
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRjnT3OJOow-OPPp04H8_EAiiyTrFzbrzhHEPIyPnhdY-AmOPA",
       director: "Hardik Mehta",
       stars: "Rajkummar Rao,Janhvi Kapoor",
       ratings: 4.3,
@@ -133,7 +146,8 @@ const MovieDemo = () => {
     {
       id: 15,
       title: "Taree Zameen Per",
-      avatar: "./images/TareeZameenPer.jpg",
+      avatar:
+        "https://upload.wikimedia.org/wikipedia/en/b/b4/Taare_Zameen_Par_Like_Stars_on_Earth_poster.png",
       director: "Aamir Khan",
       stars: "Darsheel Safary,Aamir Khan,",
       ratings: 8.4,
@@ -142,7 +156,8 @@ const MovieDemo = () => {
     {
       id: 16,
       title: "Zindagi Na Milegi Dobara",
-      avatar: "./images/ZindagiNaMilegiDobara.jpg",
+      avatar:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_6kHpQIkMHu0BT_AFh3XU6vBkv-Wg7Y-JJbL7I79ozwNa-1i",
       director: "Zoya Akhtar",
       stars: "Hrithik Roshan,Katrina Kaif",
       ratings: 8.2,

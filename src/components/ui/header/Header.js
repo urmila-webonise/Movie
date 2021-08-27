@@ -1,12 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { alpha, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import InputBase from "@material-ui/core/InputBase";
-import SearchIcon from "@material-ui/icons/Search";
+
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import MovieCreation from "@material-ui/icons/MovieCreation";
@@ -98,6 +97,7 @@ const Header = () => {
           Brands
         </Link>
       </MenuItem>
+
       <MenuItem>
         <Link className={classes.mobileLink} to="/details">
           Details
@@ -133,6 +133,7 @@ const Header = () => {
             <Link className={classes.link} to="brands">
               Brands
             </Link>
+
             <Link className={classes.link} to="details">
               Details
             </Link>

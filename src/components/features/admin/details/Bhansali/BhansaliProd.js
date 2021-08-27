@@ -13,7 +13,7 @@ const BhansaliProd = ({ bmovie }) => {
           bmovie.map((movie) => {
             return (
               <li key={movie.id}>
-                <Link to={`/${movie.id}`} style={link}>
+                <Link to={`/details/Bhansali/${movie.id}`} style={link}>
                   {movie.name}
                 </Link>
               </li>

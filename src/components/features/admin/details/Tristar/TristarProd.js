@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const DreamworkProd = ({ bmovie }) => {
+const TristarProd = ({ bmovie }) => {
   const link = {
     color: "#fff",
     textDecoration: "none",
@@ -13,7 +13,7 @@ const DreamworkProd = ({ bmovie }) => {
           bmovie.map((movie) => {
             return (
               <li key={movie.id}>
-                <Link to={`/details/Dreamwork/${movie.id}`} style={link}>
+                <Link to={`/details/Tristar/${movie.id}`} style={link}>
                   {movie.name}
                 </Link>
               </li>
@@ -24,4 +24,4 @@ const DreamworkProd = ({ bmovie }) => {
   );
 };
 
-export default DreamworkProd;
+export default TristarProd;
